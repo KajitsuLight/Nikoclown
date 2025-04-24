@@ -178,6 +178,7 @@ iframe {
 
 @media (max-width 768px) {
  .img_container1 {
+  background-size: cover;
   flex-direction: column;
   position: relative;
   width: auto;
@@ -185,6 +186,7 @@ iframe {
   object-fit: cover;
 }
 .backgroundimage {
+  background-size: cover;
   display: absolute;
   width: auto;
   height: auto;
