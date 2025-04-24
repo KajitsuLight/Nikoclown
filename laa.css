@@ -188,7 +188,7 @@ iframe {
 }
 .backgroundimage {
   background-size: cover;
-  display: absolute;
+  display: flex;
   width: 100vw;
   width: auto;
   height: auto;
