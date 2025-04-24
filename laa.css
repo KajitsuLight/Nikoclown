@@ -175,6 +175,28 @@ iframe {
   width: 100%;
   height: auto;
 }
+
+@media (max-width 768px) {
+ .img_container1 {
+  flex-direction: columg;
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+}
+.backgroundimage {
+  display: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.9s; /* Плавный переход при смене изображения */
+  opacity: 1;
+}
+
+.img_container img {
+  width: 100%;
+  height: auto;
+}
+}
 .form{
   position: absolute;
   top: 50%;
