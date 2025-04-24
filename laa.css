@@ -181,6 +181,7 @@ iframe {
   background-size: cover;
   flex-direction: column;
   position: relative;
+  width: 100vw;
   width: auto;
   height: auto;
   object-fit: cover;
@@ -188,6 +189,7 @@ iframe {
 .backgroundimage {
   background-size: cover;
   display: absolute;
+  width: 100vw;
   width: auto;
   height: auto;
   object-fit: cover;
