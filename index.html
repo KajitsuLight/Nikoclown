@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница</title>
+    <link rel="stylesheet" href="laa.css">
+  </head>
+
+  <body>
+<div class="img_container1">
+<img id="image" src="images\main.jpg" class="backgroundimage">
+    <script>
+        const images = [
+            'images/main.jpg',
+            'images/image4.jpg',
+            'images/image2.jpg',
+            'images/image3.jpg'
+        ];
+        let currentIndex = 0;
+
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % images.length; // Увеличиваем индекс и сбрасываем его при достижении конца массива
+            const imgElement = document.getElementById('image');
+            imgElement.style.opacity = 0.6; // Уменьшаем непрозрачность до 0 перед сменой изображения
+
+            setTimeout(() => {
+                imgElement.src = images[currentIndex]; // Меняем изображение
+                imgElement.style.opacity = 1; // Увеличиваем непрозрачность обратно до 1
+            }, 500); // Задержка для плавного перехода
+        }
+
+        setInterval(changeImage, 8000); // Меняем изображение каждые 3 секунды
+    </script>
+<div class="textover">HELLO NIKO</div>
+<div class="reflection">HELLO NIKO</div>
+</div>
+<div class="menu">
+        <div class="category">
+            <span class="gradient-text">Игрушки</span>
+            <div class="subcategory">
+                <ul>
+                    <li><a href="https://vsexshop.ru/store/index/21/color/10/measure/6,3,2/?yclid=721608558839332863">Страпон</li></a>
+                    <li>Дилдо</li>
+                    <li><a href="https://yandex.ru/images/search?from=tabbar&img_url=https%3A%2F%2Fwallpaper.forfun.com%2Ffetch%2Fe1%2Fe1fff8cd424a39302e39a6cabfb15a1b.jpeg&lr=47&p=2&pos=34&rpt=simage&text=%D0%B2%D0%B5%D1%80%D0%B5%D0%B2%D0%BA%D0%B0" target="_blank" rel="noopener noreferrer">Веревка</li></a>
+                    <li><a href="https://worldoftanks.com/">World of Tanks</li></a>
+                    <li>Камеры</li>
+                </ul>
+            </div>
+        </div>
+        <div class="category">
+            <span class="gradient-text">Нико</span>
+            <div class="subcategory">
+                <ul>
+                    <li>Любит</li>
+                    <li>Сосать</li>
+                    <li>Член</li>
+                    <li>кокококо</li>
+                </ul>
+            </div>
+        </div>
+        <div class="category">
+            <span class="gradient-text">Лесничество</span>
+            <div class="subcategory">
+                <ul>
+                    <li>Любит</li>
+                    <li>Сосать</li>
+                    <li>Член</li>
+                    <li>кокококо</li>
+                </ul>
+            </div>
+    </div>
+        <div class="category">
+            <span class="gradient-text">Аниме</span>
+            <div class="subcategory">
+                <ul>
+                    <li>Любит</li>
+                    <li>Сосать</li>
+                    <li>Член</li>
+                    <li>кокококо</li>
+                </ul>
+            </div>
+    </div>
+        <div class="category">
+            <span class="gradient-text">Компьютер</span>
+            <div class="subcategory">
+                <ul>
+                    <li>Любит</li>
+                    <li>Сосать</li>
+                    <li>Член</li>
+                    <li>кокококо</li>
+                </ul>
+            </div>
+    </div>
+    <div class="containerR">
+      <a href="#Sky" id="menu">
+        <div> Небеса</div>
+</a>
+</div>
+</div>
+<article class="article article_sup">
+<h2 class="black"> нико сосет</h2>
+      <a href="#menu" id="Sky">
+        <div>Небеса</div>
+</a>
+<iframe src="https://www.youtube.com/embed/AOdtb2BhmFA?si=0kFBXvNLQllNmjmv" " width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<img src="https://rifey.ru/sites/default/files/568568_31_0_0.jpg" width =800>
+</article>
+<article class="article article_cep">
+<h3>Нико очень любит сосать</h3>
+<div class="img_container">
+<img src="images\tt.png">
+<form class="form">
+<input type="text" class="form_input" placeholder="Номер карты">
+<input type="text" class="form_input" placeholder="Срок годости">
+<textarea class="form_textarea" placeholder="CCV-КОД"></textarea>
+<a href="https://parad1st.github.io/Screamer/" class="button">Отправить</a>
+</form>
+</div>
+<section>
+<p>niko musor <hr> КОНЧЕННЫЙ</p>
+</section>
+<video width="450" height="350" controls>
+    <source src="video/123.mp4" type="video/mp4">
+</video>
+      <a href="#" id="menu">
+        <div>Вернуться назад...</div>
+      </a>
+</article> 
+</body>
+</html>
